@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #444941;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: thick;
+  width: 5%;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 6.625rem;
+  margin:50px; auto; 0;
+  font-family: 'Sacramento', cursive;
+  color: #7FC8A9;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2,5rem;
+  color: #7FC8A9;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#5F7A61;
+}
+
+a {
+  color: #5F7A61;
+  margin:10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+}
+
+table {
+  margin:50px auto;
+  line-height: 3;
+  z-index: top;
+  font-size: 1rem;
+  padding-bottom: 50px;
+}
+
+td {
+  max-width: 450px;
+  text-align:left;
+  padding-left: 50px;
+  margin: auto;
+}
+/*********************************************/
+.top-container {
+  background-color: #D5EEBB;
+  position: relative;
+  padding-top:100px;
+}
+
+.intro {
+  width:30%;
+  margin:auto;
+}
+.bottom-cloud {
+  position:absolute;
+  bottom: 300px;
+  left:250px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right:300px;
+  top:40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  height:200px;
+}
+
+.skills-one{
+  width:25%;
+  float:left;
+  padding-right: 30px;
+}
+
+.skills-two{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.rights {
+  size: 10px;
+}
+
+.subtitle {
+  font-weight: normal;
+  }
+
+.skill-row {
+  width:50%;
+  margin: 100px auto 50px;
+  line-height: 2;
+  text-align: left;
+
+}
+
+.bottom-container {
+  padding:50px 0 20px;
+  margin-top: 50px;
+  background-color: #7FC8A9;
+  color: #EAF6F6;
+}
+
+.btn {
+	background-color: #7FC8A9;
+	border-radius:8px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+  margin-top:50px;
+  font-family:'Montserrat', sans-serif;
+}
+
+.contact-me {
+  margin:50px auto;
+}
+
+.copyright{
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.link {
+  font-size: 1.5rem;
+}
+
+.work {
+  position:absolute;
+  top:5%;
+  left:5%;
+}
+
+.home {
+  position:absolute;
+  top:5%;
+  left:5%;
+}
+.skill {
+  position:absolute;
+  top:5%;
+  left:15%;
+}
+
+.mountain-tab{
+  position: absolute;
+  bottom:0;
+  right:auto;
+  opacity: 30%;
+  height:50%;
+
+}
+
+.tab-h2 {
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+  font-weight: bolder;
+}
